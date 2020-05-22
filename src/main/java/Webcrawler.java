@@ -12,7 +12,6 @@ public class Webcrawler implements Runnable  {
 
     private String COLLECTION_NAME = "crawledarticles";
     Database database;
-
     String esgNoun;
     String entityNoun;
 
@@ -20,6 +19,7 @@ public class Webcrawler implements Runnable  {
         this.database = database;
         this.entityNoun = entityNoun;
         this.esgNoun = esgNoun;
+
     }
 
     //crawl the internet using Jsoup and Save to MongoDB
